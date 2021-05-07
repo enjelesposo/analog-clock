@@ -1,0 +1,41 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    border: 15px solid #FF968A;
+    position: relative;
+}
+
+.clock-face{
+    width: inherit;
+    height: inherit;
+}
+
+.hand{
+    width: 50%;
+    height: 8px;
+    background-color: #A2B1DB;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(0.1,2.7,0.58,1);
+}
+
+.hand-min{
+    width: 40%;
+    left: 10%;
+}
+
+.hand-sec{
+    height: 6px;
+    background-color: #ECD5E3;
+}

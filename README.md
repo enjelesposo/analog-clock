@@ -1,3 +1,2 @@
 # analog-clock
-I nuilt an analog clock using JS.　</br>
-ウェスボスのチュートリアル通りにJavaScriptで時計作成してみました。
+I built an analog clock using JS by following Wes Bos's tutorial.　</br>
